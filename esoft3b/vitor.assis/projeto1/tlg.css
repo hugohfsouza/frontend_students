@@ -1,0 +1,53 @@
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
+.card-body {
+    text-align: center;
+}
+
+.navbar {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.collapse {
+    justify-content: center;
+    margin-right: 100px;
+}
+
+#button-filtrar {
+    margin-left: 29px;
+}
+
+.div-nuns {
+   margin: 30px;
+   margin-top: 45px; 
+}
+
+#div-users {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.card {
+    justify-content: center;
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+    justify-content: center;
+}
+
+.btn-group {
+    left: 79%;
+}
+
+.table {
+    margin-left: 23px;
+}
