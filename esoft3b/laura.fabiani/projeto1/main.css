@@ -1,0 +1,221 @@
+body {
+    background-color: #100428 !important;
+    color: #EAd8fd !important;
+    font-family: "PT Sans", serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
+
+.navbar-brand {
+    width: 50px;
+}
+
+.fundo-preto {
+    background-color: #100428 !important;
+    color: #EAd8fd !important;
+    border-bottom: 1px solid #8332ac !important;
+    box-shadow: 0px 4px 15px rgba(131, 50, 172, 0.5);
+}
+
+.active {
+    color: #EAd8fd !important;
+}
+
+main {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-cards {
+    border: 1px solid !important;
+    border-radius: 20px;
+    height: 228px;
+    width: 349px; 
+    display: flex !important;
+    flex-direction: row !important;
+    padding-left: 25px;
+}
+
+.main-cards__escrito {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-cards__icons {
+    width: 87px;
+    padding-top: 28px;
+}
+
+.blue {
+    margin-left: 100px;
+}
+
+.green {
+    margin-left: 10px;
+}
+
+.red {
+    margin-left: 10px;
+}
+
+.main-info {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 54px;
+    justify-content: center;
+}
+
+.main-cards__numero {
+    font-size: 96px;
+}
+
+.main-cards__texto {
+    font-size: 48px;
+}
+
+.total {
+    border-color: #8332ac !important;
+    box-shadow: 0px 0px 15px rgba(131, 50, 172, 0.5) !important;
+    transition: 0.3s;
+}
+
+.total:hover {
+    box-shadow: 0px 0px 20px 4px rgba(131, 50, 172, 0.75) !important;
+    background-color: #1A0834;
+}
+
+.chegaram {
+    border-color: #10e566 !important;
+    box-shadow: 0px 0px 15px rgba(16, 229, 102, 0.5) !important;
+    transition: 0.3s;
+}
+
+.chegaram:hover {
+    box-shadow: 0px 0px 20px 4px rgba(16, 229, 102, 0.75) !important;
+    background-color: #10182E;
+}
+
+.atrasados {
+    border-color: #e50f0f !important;
+    box-shadow: 0px 0px 15px rgba(229, 15, 15, 0.5) !important;
+    transition: 0.3s;
+}
+
+.atrasados:hover {
+    box-shadow: 0px 0px 20px 4px rgba(229, 15, 15, 0.75) !important;
+    background-color: #230526;
+}
+
+.form-select {
+    border-color: #8332ac !important;
+    background-color: #270d42 !important;
+    box-shadow: 0px 0px 15px rgba(131, 50, 172, 0.5) !important;
+    border-radius: 10px !important;
+    width: 172px !important;
+    height: 44px !important;
+    color: #EAd8fd !important;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    margin-left: 983px;
+    transition: 0.3s;
+}
+
+.form-select:hover {
+    background-color: #58217A !important;
+    box-shadow: 0px 0px 26px 1px rgba(131, 50, 172, 0.74) !important;
+}
+
+.main-table {
+    border: 1px solid;
+    border-color: #8332ac;
+    background-color: #270d42;
+    box-shadow: 0px 0px 15px rgba(131, 50, 172, 0.5);
+    width: 1155px;
+    height: 416px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 16px;
+}
+
+.column {
+    border-color: #8332ac !important;
+    border-right: 1px solid;
+    width: 231px;
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    border-color: #8332ac !important;
+    border-bottom: 1px solid;
+    width: 231px;
+    height: 69px;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.row1 {
+    font-size: 30px;
+}
+
+.row1-titleB {
+    font-size: 24px;
+}
+
+.table-link {
+    color: #06e1fa;
+}
+
+button {
+    border: 1px solid;
+    border-color: #8332ac;
+    background-color: #270d42;
+    box-shadow: 0px 0px 15px rgba(131, 50, 172, 0.5);
+    border-radius: 10px;
+    width: 172px;
+    height: 44px;
+    color: #EAd8fd;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #58217A;
+    box-shadow: 0px 0px 26px 1px rgba(131, 50, 172, 0.74);
+}
+
+.main-buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    width: 1155px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+footer {
+    height: 77px;
+    border-top: 1px solid;
+    border-color: #8332ac;
+    box-shadow: 0px -4px 15px rgba(131, 50, 172, 0.5);
+}
+
+.page-link {
+    background-color: #270d42 !important;
+    border-color: #8332ac !important;
+    color: #EAd8fd !important;
+    transition: 0.3s;
+}
+
+.page-link:hover {
+    background-color: #58217A !important;
+    box-shadow: 0px 0px 26px 1px rgba(131, 50, 172, 0.74) !important;
+}
