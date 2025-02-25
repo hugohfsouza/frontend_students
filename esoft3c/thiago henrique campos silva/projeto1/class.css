@@ -1,0 +1,56 @@
+.formatacao {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.detalhes {
+    border-radius: 10px;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+.navegacao-atual {
+    color: rgba(90, 104, 148, 0.856);
+}
+
+.container.text-center {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.table {
+    margin-top: 30px;
+}
+
+.menu {
+    background-color: #222222;
+    color: white;
+    position: absolute;
+}
+
+.tamanho {
+    margin-top: 50px;
+    margin-left: 100px;
+
+}
+
+.texto-alinhado {
+    margin-left: 30px;
+}
+
+.texto-mini {
+    font-weight: bold;
+}
+
+.texto-menor {
+    font-size: 25px;
+    margin-left: 15px;
+    color: rgba(90, 104, 148, 0.856);
+}
+
+.conteiner {
+    margin-top: 30px;
+}
