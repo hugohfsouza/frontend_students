@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            background-color: #f0f8ff;
+        }
+        .navbar {
+            background-color: #007bff !important;
+        }
+        .nav-link {
+            color: white !important;
+            font-weight: bold;
+        }
+        .card {
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .btn-primary {
+            background-color: #0056b3;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #003f7f;
+        }
+        thead tr {
+            background-color: #007bff;
+            color: white;
+        }
+        tbody tr:nth-child(odd) {
+            background-color: #e3f2fd;
+        }
+        tbody tr:hover {
+            background-color: #bbdefb;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <div class="d-flex align-items-center">
+                <img src="https://cdn-icons-png.flaticon.com/512/742/742751.png" style="max-width: 2.5%;" alt="Logo Emoji">
+                <a class="nav-link active ms-3" href="#">Demi</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Equipe</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="text-primary">2</h1>
+                        <h5>Atrasados</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="text-success">1</h1>
+                        <h5>Na hora</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="text-danger">3</h1>
+                        <h5>Total</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-end mt-3">
+            <button type="button" class="btn btn-primary">Filtrar</button>
+        </div>
+
+        <div class="mt-4">
+            <table class="table table-striped text-center">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nome</th>
+                        <th>Sobrenome</th>
+                        <th>Atraso</th>
+                        <th>Perfil</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Hugo</td>
+                        <td>Lopes</td>
+                        <td>1:00</td>
+                        <td><a href="pessoas/hugo.html"><button class="btn btn-outline-primary btn-sm">Perfil</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Guilherme</td>
+                        <td>Alves</td>
+                        <td>2:00</td>
+                        <td><a href="pessoas/guilherme.html"><button class="btn btn-outline-primary btn-sm">Perfil</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Ana</td>
+                        <td>Sara</td>
+                        <td>0:00</td>
+                        <td><a href="pessoas/ana.html"><button class="btn btn-outline-primary btn-sm">Perfil</button></a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="d-flex justify-content-between mt-4">
+            <button class="btn btn-primary">Exportar</button>
+            <div>
+                <button class="btn btn-primary">1</button>
+                <button class="btn btn-primary">2</button>
+                <button class="btn btn-primary">3</button>
+                <button class="btn btn-primary">4</button>
+                <button class="btn btn-primary">...</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
