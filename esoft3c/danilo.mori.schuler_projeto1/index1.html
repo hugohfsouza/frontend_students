@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .img-container {
+        position: relative;
+        display: inline-block;
+      }
+
+      .img-spacing {
+        border: 1px solid rgb(192, 175, 175);
+        padding: 1px;
+        height: auto; 
+        margin: 5px; 
+        border-radius: 10px;
+        transition: transform 0.3s ease-in-out;
+        height: 170px;
+        width: 100%;
+      }
+
+      .img-spacing:hover {
+        transform: scale(1.1);
+      }
+
+      .img-number {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        font-size: 20px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 5px;
+        border-radius: 50%;
+        display: none;
+      }
+      
+
+      .img-container:hover .img-number {
+        display: block;
+      }
+
+      .navbar-custom {
+        background-color: #17191a !important;
+      }
+
+      body {
+        background-color: #333 !important;
+        background-image: url(https://img.freepik.com/fotos-gratis/papel-preto-texturizado-liso_53876-96064.jpg?t=st=1740583579~exp=1740587179~hmac=a7b09696b062b863e9a020ddd52ada9a4f6c465e7a56cdb6ad77ebeb67cadd19&w=1060);
+      }
+      .list-group-item {
+        transition: transform 0.3s ease-in-out;
+        margin-bottom: 8px;
+        background-color: #c9c9c9;
+        color:rgb(0, 0, 0)
+      }
+      .list-group-item:hover {
+        transform: translateX(-3px);
+        animation: bounce 0.3s ease-in-out;
+      }
+    </style>
+</head>
+<body> 
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-custom navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><i class="bi bi-camera-video-fill"></i></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+          <div class="col-2">
+            <div class="img-container">
+              <a href="https://i.gifer.com/j1o.gif" target="_blank">
+                <img class="img-spacing img-fluid" src="https://i.gifer.com/j1o.gif" alt="GIF">
+              </a>
+              <span class="img-number">1</span>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="img-container">
+              <a href="https://i.gifer.com/47Hr.gif" target="_blank">
+              <img class="img-spacing img-fluid" src="https://i.gifer.com/47Hr.gif" alt="GIF">
+            </a>
+              <span class="img-number">2</span>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="img-container">
+              <a href="https://i.gifer.com/15rt.gif" target="_blank">
+                <img class="img-spacing img-fluid" src="https://i.gifer.com/15rt.gif" alt="GIF">
+              </a>
+              <span class="img-number">3</span>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="img-container">
+              <a href="https://pbs.twimg.com/media/Cci_IKAUkAAuFfo.jpg" target="_blank">
+                <img class="img-spacing img-fluid" src="https://pbs.twimg.com/media/Cci_IKAUkAAuFfo.jpg" alt="">
+              </a>
+              <span class="img-number">4</span>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="img-container">
+              <a href="https://img.freepik.com/vetores-gratis/fundo-de-efeito-vhs-realista_23-2150082756.jpg" target="_blank">
+                <img class="img-spacing img-fluid" src="https://img.freepik.com/vetores-gratis/fundo-de-efeito-vhs-realista_23-2150082756.jpg" alt="">
+              </a>
+              <span class="img-number">5</span>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="img-container">
+              <a href="https://img.freepik.com/vetores-gratis/fundo-de-efeito-vhs-realista_23-2150082756.jpg" target="_blank">
+                <img class="img-spacing img-fluid" src="https://img.freepik.com/vetores-gratis/fundo-de-efeito-vhs-realista_23-2150082756.jpg" alt="">
+              </a>
+              <span class="img-number">6</span>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+      <ul class="list-group">
+        <li class="list-group-item active" aria-current="true">Lista de acessos</li>
+        <li class="list-group-item">Hugo Fumero 
+          <a href="pagina_hugo.html" target="_blank" class="btn btn-sm btn-primary" style="float: right;">Acessar</a>
+        </li>
+        <li class="list-group-item">Danilo Mori Schuler
+          <a href="pagina_d.html" target="_blank" class="btn btn-sm btn-primary" style="float: right;">Acessar</a>
+        </li>
+        <li class="list-group-item">Amanda
+          <a href="pagina_a.html" target="_blank" class="btn btn-sm btn-primary" style="float: right;">Acessar</a>
+        </li>
+        <li class="list-group-item">Julia
+          <a href="pagina_j.html" target="_blank" class="btn btn-sm btn-primary" style="float: right;">Acessar</a>
+        </li>
+      </ul>
+    </div>  
+
+    <div class="container mt-4">
+      <div class="d-flex justify-content-end">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+  </div>
+
+    <div class="container mt-3">
+      <button type="button" class="btn btn-sm btn-outline-primary">Exportar</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
