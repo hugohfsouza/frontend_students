@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cameras do pepe</title>
+    <!-- Link do bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(3, 0, 51);">
+        <div class="container-fluid">
+            <!-- logo e nome alinhados -->
+            <a class="navbar-brand d-flex align-items-center text-white" href="home.html">
+                <img src="img/logoazul.png" height="50" width="50" class="me-3">
+                <b>HOME</b>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Script do bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .logo {
+            margin-right: 15px;
+        }
+
+        .guia {
+            font-size: 22px;
+            font-weight: bold;
+            color: white;
+        }
+
+        table {
+            width: 70%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        th,
+        td {
+            border: 1px solid #000;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #030033;
+            color: white;
+        }
+
+        td {
+            background-color: #ffffff;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-top: 30px;
+        }
+
+        .botao-exportar {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            font-weight: bold;
+            background-color: #030033;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+        }
+
+        .botao-exportar:hover {
+            background-color: #003F8C;
+        }
+
+        .botao-acessar {
+            display: block;
+            width: 170px;
+            margin: -10px auto;
+            font-weight: bold;
+            background-color: #030033;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+        }
+
+        .botao-acessar:hover {
+            background-color: #003F8C;
+        }
+    </style>
+
+    <body>
+
+        <table cellspacing="40">
+            <thead>
+                <tr>
+                    <th><img src="img/camera1.png" alt="Câmera 1" width="150" height="150"></th>
+                    <th><img src="img/camera2.png" alt="Câmera 2" width="150" height="150"></th>
+                    <th><img src="img/camera3.png" alt="Câmera 3" width="150" height="150"></th>
+                    <th><img src="img/camera4.png" alt="Câmera 4" width="150" height="150"></th>
+                    <th><img src="img/camera5.png" alt="Câmera 5" width="150" height="150"></th>
+                    <th><img src="img/camera6.png" alt="Câmera 6" width="150" height="150"></th>
+                </tr>
+            </thead>
+        </table>
+
+        <h2>Acessos Frequentes</h2>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Cidade</th>
+                <th>Versão</th>
+                <th>Detalhes</th>
+            </tr>
+            <tr>
+                <td>Pedro Mendes</td>
+                <td>Maringá</td>
+                <td>v2.4</td>
+                <td><a href="detalhes.html" class="botao-acessar">ACESSAR</a></td>
+            </tr>
+            <tr>
+                <td>Amanda Gabriely</td>
+                <td>Telêmaco Borba</td>
+                <td>v2.0</td>
+                <td><a href="detalhes2.html" class="botao-acessar">ACESSAR</a></td>
+            </tr>
+            <tr>
+                <td>Danilo Mori Schuder</td>
+                <td>Maringá</td>
+                <td>v2.4</td>
+                <td><a href="detalhes3.html" class="botao-acessar">ACESSAR</a></td>
+            </tr>
+
+            <tr>
+                <td>João Mendes</td>
+                <td>Telêmaco Borba</td>
+                <td>v2.0</td>
+                <td><a href="detalhes4.html" class="botao-acessar">ACESSAR</a></td>
+
+            </tr>
+        </table>
+
+        <button class="botao-exportar">Exportar</button>
+
+
+    </body>
+
+</html>
