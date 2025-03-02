@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Site de Segurança</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="class.css">
+</head>
+
+<body>
+    <!--Menu de navegação-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <!-- Logo Alinhado à Esquerda -->
+            <a class="navbar-brand" href="index.html">
+                <img src="https://cdn-icons-png.flaticon.com/512/36/36229.png" width="40" height="40" class="me-2">
+            </a>
+
+            <!-- Botão de Menu Responsivo (para telas pequenas) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <!---->
+    <!--Imagens da Camera-->
+    <!-- Card contendo as imagens -->
+    <div class="container mt-4">
+        <div class="card">
+            <div class="card-body">
+                <div class="row row-cols-2 row-cols-md-3 g-3">
+                    <!--Row-cols-2 apresenta 2 imagens por linha em telas pequenas-->
+                    <div class="col">
+                        <div class="d-grid">
+                            <a
+                                href="https://pt.quizur.com/_image?href=https://img.quizur.com/f/img64624f77d49397.45271659.jpg?lastEdited=1684164477&w=600&h=600&f=webp">
+                                <button type="button" class="btn btn-outline-secondary w-100">
+                                    Imagem 1
+                                </button>
+                            </a>
+                        </div>
+                        <img src="https://pt.quizur.com/_image?href=https://img.quizur.com/f/img64624f77d49397.45271659.jpg?lastEdited=1684164477&w=600&h=600&f=webp"
+                            class="img-fluid rounded mt-2 formatacao">
+                    </div>
+                    <div class="col">
+                        <div class="d-grid">
+                            <a href="https://i.redd.it/u0zvhlmcicnb1.jpeg">
+                                <button type="button" class="btn btn-outline-secondary w-100">
+                                    Imagem 2
+                                </button>
+                            </a>
+                        </div>
+                        <img src="https://i.redd.it/u0zvhlmcicnb1.jpeg" class="img-fluid rounded mt-2 formatacao">
+                    </div>
+                    <div class="col">
+                        <div class="d-grid">
+                            <a href="https://i.pinimg.com/736x/9f/88/e1/9f88e111a5f26eeba26547daa6b4bf75.jpg">
+                                <button type="button" class="btn btn-outline-secondary w-100">
+                                    Imagem 3
+                                </button>
+                            </a>
+                        </div>
+                        <img src="https://i.pinimg.com/736x/9f/88/e1/9f88e111a5f26eeba26547daa6b4bf75.jpg"
+                            class="img-fluid rounded mt-2 formatacao">
+                    </div>
+                    <div class="col">
+                        <div class="d-grid">
+                            <a
+                                href="https://external-preview.redd.it/hHXl1YNEuBrwzSTG72BYhBxhJi30D8stnUQccN6hMP0.jpg?auto=webp&s=e4fd9a24e1fb9e3e81223c848aae96a76d94bba6">
+                                <button type="button" class="btn btn-outline-secondary w-100">
+                                    Imagem 4
+                                </button>
+                            </a>
+                        </div>
+                        <img src="https://external-preview.redd.it/hHXl1YNEuBrwzSTG72BYhBxhJi30D8stnUQccN6hMP0.jpg?auto=webp&s=e4fd9a24e1fb9e3e81223c848aae96a76d94bba6"
+                            class="img-fluid rounded mt-2 formatacao">
+                    </div>
+
+                    <div class="col">
+                        <div class="d-grid">
+                            <a href="https://i.pinimg.com/236x/8e/77/06/8e770643902f1c976065b232806a5a8e.jpg">
+                                <button type="button" class="btn btn-outline-secondary w-100">
+                                    Imagem 5
+                                </button>
+                            </a>
+                        </div>
+                        <img src="https://i.pinimg.com/236x/8e/77/06/8e770643902f1c976065b232806a5a8e.jpg"
+                            class="img-fluid rounded mt-2 formatacao">
+                    </div>
+                    <div class="col">
+                        <div class="d-grid">
+                            <a
+                                href="https://i.redd.it/meu-gato-%C3%A9-praticamente-o-gato-do-meme-v0-n9dleoj8dgfc1.jpg?width=720&format=pjpg&auto=webp&s=426eb562eddf7898e5ba777104b7065552be8114">
+                                <button type="button" class="btn btn-outline-secondary w-100">
+                                    Imagem 6
+                                </button>
+                            </a>
+                        </div>
+                        <img src="https://i.redd.it/meu-gato-%C3%A9-praticamente-o-gato-do-meme-v0-n9dleoj8dgfc1.jpg?width=720&format=pjpg&auto=webp&s=426eb562eddf7898e5ba777104b7065552be8114"
+                            class="img-fluid rounded mt-2 formatacao">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---->
+    <!--Tabelas-->
+    <div class="conteiner mt-4">
+        <div class="card">
+            <div class="card-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Ultimo usuário</th>
+                            <th scope="col">Horário</th>
+                            <th scope="col">Detalhes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td><strike>Kanye West</strike></td>
+                            <td>23:99</td>
+                            <td>
+                                <a href="detalhes1.html">
+                                    <input type="submit" value="Detalhes" class="detalhes ">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Kendrick Lamar</td>
+                            <td>21:30</td>
+                            <td>
+                                <a href="detalhes2.html">
+                                    <input type="submit" value="Detalhes" class="detalhes">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Snoop Dog</td>
+                            <td>4:20</td>
+                            <td>
+                                <a href="detalhes3.html">
+                                    <input type="submit" value="Detalhes" class="detalhes">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>J. Cole</td>
+                            <td>8:15</td>
+                            <td>
+                                <a href="detalhes4.html">
+                                    <input type="submit" value="Detalhes" class="detalhes">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Post Malone</td>
+                            <td>16:20</td>
+                            <td>
+                                <a href="detalhes5.html">
+                                    <input type="submit" value="Detalhes" class="detalhes">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td><strike>Freddie Mercury</strike></td>
+                            <td>14:14</td>
+                            <td>
+                                <a href="detalhes6.html">
+                                    <input type="submit" value="Detalhes" class="detalhes">
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!---->
+    <!--Alinhar botões-->
+    <div class="d-flex justify-content-between align-items-center p-3">
+        <!-- Botão Exportar -->
+        <input type="submit" value="Exportar" class="btn btn-dark ms-3">
+
+        <!-- Paginação -->
+
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-end">
+                <li class="page-item disabled">
+                    <a class="page-link">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!---->
+</body>
+
+</html>

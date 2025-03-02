@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/style.css">
+    <title>Sistema de Segurança</title>
+</head>
+
+<body class="body-background">
+
+    <!-- Menu de Navegação -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../static/cabeca-freddy.png" alt="Ícone do Freddy" width="50px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../public/index.html">
+                            <strong style="color: rgb(242, 240, 240);">Home</strong>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../public/detalhe.html">
+                            <strong style="color: rgb(242, 240, 240);">Detalhe</strong>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Imagens das Câmeras -->
+    <div class="container mt-4">
+        <div class="row justify-content-center g-0">
+
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="../static/foto-corredor-esquerda.png"
+                        alt="Foto do Corredor da Esquerda">
+                    <div class="card-body d-flex justify-content-center">
+                        <h5 class="card-title">Corredor da Esquerda</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="../static/foto-sala-seguranca.jpg"
+                        alt="Foto da Sala do Segurança">
+                    <div class="card-body d-flex justify-content-center">
+                        <h5 class="card-title">Sala do Segurança</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="../static/foto-corredor-direita.jfif"
+                        alt="Foto do Corredor da Direita">
+                    <div class="card-body d-flex justify-content-center">
+                        <h5 class="card-title">Corredor da Direita</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tabela de Informações -->
+    <div class="container mt-4">
+        <div class="row justify-content-center g-0">
+            <table class="table border table-dark-custom">
+                <thead>
+                    <tr>
+                        <th class="text-center" scope="col">Nome</th>
+                        <th class="text-center" scope="col">Horário</th>
+                        <th class="text-center" scope="col">Localização</th>
+                        <th class="text-center" scope="col">Outras Informações</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr>
+                        <th class="text-center" scope="row">Bonnie</th>
+                        <td class="text-center">1:45</td>
+                        <td class="text-center">Corredor da Direita</td>
+                        <td class="text-end">
+                            <button style="color: rgb(242, 240, 240);" type="button" class="btn btn-info">
+                                Detalhe
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="text-center" scope="row">Chica</th>
+                        <td class="text-center">2:15</td>
+                        <td class="text-center">Corredor da Esquerda</td>
+                        <td class="text-end">
+                            <button style="color: rgb(242, 240, 240);" type="button" class="btn btn-info">
+                                Detalhe
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Botões -->
+    <div class="container mt-2">
+        <div class="row">
+
+            <!-- Botão de Exportar -->
+            <div class="col-md-6">
+                <button type="button" class="btn btn-success">
+                    Exportar
+                </button>
+            </div>
+
+            <!-- Botão de Paginação -->
+            <div class="col-md-6 d-flex justify-content-end">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
