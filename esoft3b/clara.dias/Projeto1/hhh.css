@@ -1,0 +1,239 @@
+    .cabeca {
+        background-color: #fff;
+        display: flex;
+        /* isso aqui bota tudo na mesma linha*/
+        justify-content: flex-start;
+        /*isso aqui deixou tudo alinhado pra esquerda!*/
+        align-items: center;
+        /*isso aqui alinhou os bagulho, ele faz com que os itens fiquem alinhados pelo centro VERTICAMENTE*/
+        padding: 0px 20px;
+
+    }
+
+    .cabeca ul {
+        background-color: #fff;
+        padding: 5px;
+        text-align: center;
+
+    }
+
+    .cabeca a {
+        font-size: 30px;
+        padding: 16px 20px 16px 20px;
+
+    }
+
+
+
+    .cardCabeca {
+        background-color: rgb(255, 255, 255);
+        box-sizing: border-box;
+        width: 200px;
+        height: 50px;
+        box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4);
+        display: inline-block;
+        align-items: center;
+        padding: 8px 18px 8px 18px;
+        margin: 5px;
+    }
+
+    .cardCabeca a {
+        display: inline-block;
+        justify-content: center;
+        font-size: 21px;
+        padding: 0px;
+    }
+
+    .cardCabeca:hover {
+        /* assim, o card inteiro muda de cor quando é passado o mouse, e tem que colocar separado do card
+        para que as config da aparencia do card continuem!!!*/
+        background-color: rgb(36, 86, 128);
+
+    }
+
+    .itensLinks {
+        list-style: none;
+        display: flex;
+    }
+
+    .itensLinks li {
+        display: inline-block;
+    }
+
+    /* mudar a cor do texto dos links*/
+    .itensLinks li,
+    a {
+        color: black;
+        font-size: 30px;
+        font-style: bold;
+        /*text decoration tirou aquelas bostinha que ficava embaixo do texto*/
+        text-decoration: none;
+    }
+
+    .corpoDoSite {
+        background-color: lightskyblue;
+        display: flex;
+        justify-content: center;
+        /* assim os em azul escuro ficam juntos, em vez de antes que eles tinham a distancia
+        de 3 dedos...*/
+        gap: 10px;
+        /* isso aqui que vai dar o espaçamento entre os negocio*/
+    }
+
+    body {
+        background-color: lightskyblue;
+    }
+
+    .card {
+        background-color: rgb(36, 86, 128);
+        box-sizing: border-box;
+        width: 300px;
+        height: 60px;
+        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
+        border-radius: 15px;
+        text-align: center;
+
+    }
+
+    .card h1 {
+        font-size: 25px;
+        text-align: center;
+        line-height: 0.5px;
+
+    }
+
+    .card p {
+        padding: 7px 1px 1px 1px;
+        line-height: 0.2px;
+        text-align: center;
+    }
+
+
+    .tabela {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .butao {
+        background-color: rgb(179, 179, 179);
+        display: flex;
+        justify-content: right;
+        border-radius: 5px;
+
+    }
+
+    .paginacao {
+        display: flex;
+        justify-content: center;
+    }
+
+    .paginacao ul {
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        gap: 5px;
+
+    }
+
+    .paginacao a {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .cardPaginacao {
+        background-color: rgb(255, 255, 255);
+        box-sizing: border-box;
+        width: 40px;
+        height: 40px;
+        box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        padding: 2px 5px 8px 5px;
+        margin: 0px;
+    }
+
+    .cardPaginacao:hover {
+        background-color: rgb(160, 160, 160);
+    }
+
+    .voltar {
+        background-color: rgb(224, 223, 223);
+        box-sizing: border-box;
+        width: 90px;
+        height: 50px;
+        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
+        border-radius: 15px;
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        text-align: center;
+        margin-left: auto;
+        margin-top: 7px;
+    }
+
+    .voltar a {
+        padding: 12px 15px 0px 0px;
+        font-size: 25px;
+    }
+
+    .voltar:hover {
+        background-color: rgb(36, 86, 128);
+    }
+
+   .meuHistorico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .fotoUser {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+   }
+
+   .cardUser {
+    background-color: rgb(36, 86, 128);
+    box-sizing: border-box;
+    width: 200px;
+    height: 60px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    text-align: center;
+
+   }
+
+   .cardUser h1{
+    text-align: center;
+    line-height: 17px;
+   }
+
+   .cardUser p{
+    padding: 5px 0px 0px 150px;
+   }
+
+   .historico {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   }
+   .cardHistorico{
+    background-color: rgb(223, 223, 223);
+    box-sizing: border-box;
+    width: 400px;
+    height: 200px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    display: inline-block;
+    align-items: center;
+   
+   }
+
+   .cardHistorico h1 {
+   text-align: center;
+   }
+
+   .cardHistorico 
