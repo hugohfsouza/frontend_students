@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Security</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <style>
+        /* Estilo para a paginação no canto inferior direito */
+        .pagination-bottom-right {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            z-index: 1000;
+        }
+
+        /* Ajuste nas imagens para que fiquem todas do mesmo tamanho */
+        .camera-img {
+            width: 100%;
+            height: 200px; /* Definindo altura fixa para todas as imagens */
+            object-fit: cover; /* Faz com que as imagens cubram a área definida sem distorção */
+            border-radius: 8px;
+        }
+
+        /* Estilo para a barra superior (logo e texto) */
+        .logo-container {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .logo-container img {
+            width: 50px; /* Tamanho da imagem do logo */
+            height: 50px; /* Tamanho da imagem do logo */
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Barra superior com logo e texto -->
+    
+    <div class="logo-container">
+        <img src="LogoCAM.avif" alt="Logo">
+        <h4>Home Security</h4>
+    </div>
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Detalhes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" aria-disabled="true">Saiba mais</a>
+      </li>
+    </ul>
+    
+    <!-- Layout das 6 colunas com imagens de câmeras -->
+    <div class="container text-center mt-5">
+      <div class="row g-4">
+        <div class="col-md-2">
+          <img src="cam1.webp" alt="Camera 1" class="camera-img">
+        </div>
+        <div class="col-md-2">
+          <img src="cam2.jpg" alt="Camera 2" class="camera-img">
+        </div>
+        <div class="col-md-2">
+          <img src="cam3.jpg" alt="Camera 3" class="camera-img">
+        </div>
+        <div class="col-md-2">
+          <img src="cam4.webp" alt="Camera 4" class="camera-img">
+        </div>
+        <div class="col-md-2">
+          <img src="cam5.webp" alt="Camera 5" class="camera-img">
+        </div>
+        <div class="col-md-2">
+          <img src="cam6.webp" alt="Camera 6" class="camera-img">
+        </div>
+      </div>
+    </div>
+
+    <!-- Tabela de registros -->
+    <table class="table mt-4">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Nome</th>
+          <th scope="col">Localização</th>
+          <th scope="col">Horário</th>
+          <th scope="col">Detalhes</th> <!-- Nova coluna para o botão -->
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Heitor</td>
+          <td>Sala</td>
+          <td>11:00</td>
+          <td>
+            <button class="btn btn-primary" onclick="window.location.href='detailsCam.html';">
+              Acessar
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Mefh</td>
+          <td>Pátio</td>
+          <td>10:00</td>
+          <td></td> <!-- Mantém alinhamento -->
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Scolari</td>
+          <td>Cozinha</td>
+          <td>15:00</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Barra de paginação no canto inferior direito -->
+    <nav aria-label="Page navigation example" class="pagination-bottom-right">
+      <ul class="pagination">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Inclusão do script do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+<button type="button" class="btn btn-primary btn-lg">EXPORTAR</button>
