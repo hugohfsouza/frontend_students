@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Monitoramento de Câmeras</title>
+    <style> 
+        body {
+            background-color: black; 
+            color: white;
+            font-family: Arial, sans-serif; 
+        }
+
+        .header-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            margin-right: 10px;
+        }
+
+        .guia {
+            font-size: 20px;
+            font-weight: bold;
+            background-color: #007bff;
+            color: white;
+            padding: 8px 15px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .camera-img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <img class="logo" src="C:\Users\bconr\OneDrive\Documentos\HTML\fullsize_2017_10_09_16_Logo-223326_22430_160659325_1448502669.png" alt="Logotipo da empresa de segurança" width="150">
+            <span class="guia">HOME</span>
+        </div>
+    </header>
+
+    <div class="container mt-4">
+        <table class="table table-dark table-bordered text-center">
+            <thead>
+                <tr>
+                    <th>Camera 1</th>
+                    <th>Camera 2</th>
+                    <th>Camera 3</th>
+                    <th>Camera 4</th>
+                    <th>Camera 5</th>
+                    <th>Camera 6</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img class="camera-img" src="https://www.grupomga.com.br/imagens/informacoes/monitoramento-cameras-seguranca-01.jpg" alt="Câmera 1"></td>
+                    <td><img class="camera-img" src="https://www.ceara.gov.br/wp-content/uploads/2023/03/Videomonitoramento-2.jpeg" alt="Câmera 2"></td>
+                    <td><img class="camera-img" src="https://scproduction.s3.sa-east-1.amazonaws.com/wysiwyg_uploads/cms/images/2023/05/04/19/pexels-photomix-company-96612-qowma6sa.jpg" alt="Câmera 3"></td>
+                    <td><img class="camera-img" src="https://s.zst.com.br/cms-assets/2021/04/tipos-de-c-meras-de-seguran-a_-conhe-a-os-diferentes-modelos-_-deumzoomtopo.jpg" alt="Câmera 4"></td>
+                    <td><img class="camera-img" src="https://www.phdseg.com.br/blog/wp-content/uploads/2021/08/CFTV-na-Santa-Ifigenia-2.jpeg" alt="Câmera 5"></td>
+                    <td><img class="camera-img" src="https://backend.intelbras.com/sites/default/files/styles/large/public/2023-03/banner-categoria-cameras-seguranca-eletronica.jpg" alt="Câmera 6"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container mt-4">
+        <h2 class="text-center">Últimos acessos</h2>
+        <table class="table table-dark table-bordered text-center">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>ID</th>
+                    <th>Hora de Acesso</th>
+                    <th>Idade</th>
+                    <th>Cidade</th>
+                    <th>Mais detalhes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bruno</td>
+                    <td>258-8</td>
+                    <td>22:50</td>
+                    <td>24</td>
+                    <td>São Paulo</td>
+                    <td><a href="file:///C:/Users/bconr/OneDrive/Documentos/HTML%202/index.html" class="btn btn-primary">Detalhes</a></td>
+                </tr>
+                <tr>
+                    <td>Anna</td>
+                    <td>256-6</td>
+                    <td>18:30</td>
+                    <td>22</td>
+                    <td>Rio de Janeiro</td>
+                    <td><a href="file:///C:/Users/bconr/OneDrive/Documentos/HTML%202/index.html" class="btn btn-primary">Detalhes</a></td>
+                </tr>
+                <tr>
+                    <td>Luke</td>
+                    <td>254-4</td>
+                    <td>08:50</td>
+                    <td>26</td>
+                    <td>Belo Horizonte</td>
+                    <td><a href="file:///C:/Users/bconr/OneDrive/Documentos/HTML%202/index.html" class="btn btn-primary">Detalhes</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container mt-4 d-flex justify-content-between">
+        <button class="btn btn-primary">EXPORTAR</button>
+        <div>
+            <button class="btn btn-primary">1</button>
+            <button class="btn btn-primary">2</button>
+            <button class="btn btn-primary">3</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
