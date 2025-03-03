@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Camera System Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .logo { 
+   
+        
+
+            width: 100px;
+        }
+
+        .nav-link {
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-4">
+        <div class="text-bg-secondary p-3">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                crossorigin="anonymous"></script>
+            <div>
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid">
+                            <div class=" col-2"> <a class="navbar-brand" href="#">
+                                    <img src="https://files.oaiusercontent.com/file-77KYCjKkhDSsRGTDEMjUuF?se=2025-02-21T22%3A56%3A07Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D85a94f59-988c-441c-a3b6-294014af59b0.webp&sig=F1Jkyvzl2S3rmLPPZDjhHHn5yZ72q6HL5cdpp85pjyM%3D"
+                                        class="logo">
+                                </a>
+                            </div>
+                            <div class="container mt-4">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                        </li>
+                                </div>
+
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-2">
+        <div class=" row">
+            <div class="col-2">
+                <div class="card">
+                    <div class=" card-body text-center">
+                        <img src="https://sudoestepaulista.com.br/wp-content/uploads/2021/08/Na-imagem-da-camera-de-monitoramento-do-posto-e-possivel-ver-um-dos-assaltantes-com-um-objeto-muito-semelhante-a-uma-arma-de-fogo-1030x579.jpg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card">
+                    <div class=" card-body  text-center">
+                        <img src="https://sudoestepaulista.com.br/wp-content/uploads/2021/08/Na-imagem-da-camera-de-monitoramento-do-posto-e-possivel-ver-um-dos-assaltantes-com-um-objeto-muito-semelhante-a-uma-arma-de-fogo-1030x579.jpg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card">
+                    <div class=" card-body text-center">
+                        <img src="https://sudoestepaulista.com.br/wp-content/uploads/2021/08/Na-imagem-da-camera-de-monitoramento-do-posto-e-possivel-ver-um-dos-assaltantes-com-um-objeto-muito-semelhante-a-uma-arma-de-fogo-1030x579.jpg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card">
+                    <div class=" card-body  text-center">
+                        <img src="https://sudoestepaulista.com.br/wp-content/uploads/2021/08/Na-imagem-da-camera-de-monitoramento-do-posto-e-possivel-ver-um-dos-assaltantes-com-um-objeto-muito-semelhante-a-uma-arma-de-fogo-1030x579.jpg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card">
+                    <div class=" card-body">
+                        <img src="https://sudoestepaulista.com.br/wp-content/uploads/2021/08/Na-imagem-da-camera-de-monitoramento-do-posto-e-possivel-ver-um-dos-assaltantes-com-um-objeto-muito-semelhante-a-uma-arma-de-fogo-1030x579.jpg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card">
+                    <div class=" card-body">
+                        <img src="https://sudoestepaulista.com.br/wp-content/uploads/2021/08/Na-imagem-da-camera-de-monitoramento-do-posto-e-possivel-ver-um-dos-assaltantes-com-um-objeto-muito-semelhante-a-uma-arma-de-fogo-1030x579.jpg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Portal</th>
+                        <th scope="col">Horario</th>
+                        <th scope="col">Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Vitor Hugo</th>
+                        <td>SISTEMA DE CAMERAS</td>
+                        <td>10:12</td>
+                        <td> <a class="navbar-brand" href="./Site Simples.html"> <button type="button"
+                                    class="btn btn-outline-info" class="btn btn-primary btn-lg">More
+                                    Details </button> </a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Heloisa Franzo</th>
+                        <td>SISTEMA DE CAMERAS</td>
+                        <td>23:34</td>
+                        <td> <a class="navbar-brand" href="./Site Simples1.html"> <button type="button"
+                                    class="btn btn-outline-info" class="btn btn-primary btn-lg">More
+                                    Details </button> </a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Vinicius Gabriel</th>
+                        <td>SISTEMA DE CAMERAS</td>
+                        <td>06:30</td>
+                        <td> <a class="navbar-brand" href="./Site Simples2.html"><button type="button"
+                                    class="btn btn-outline-info" class="btn btn-primary btn-lg">More
+                                    Details </button></a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="d-flex justify-content-between mm-3">
+            <div class="d-grid gap-1 d-md-flex justify-content-md-end">
+                <button type="button" class="btn btn-outline-info" class="btn btn-primary btn-lg">Exportar</button>
+            </div>
+            <div>
+
+                <button type="button" class="btn btn-outline-info" class="btn btn-primary btn-lg">1</button>
+                <button type="button" class="btn btn-outline-info" class="btn btn-primary btn-lg">2</button>
+                <button type="button" class="btn btn-outline-info" class="btn btn-primary btn-lg">3</button>
+                <button type="button" class="btn btn-outline-info" class="btn btn-primary btn-lg">...</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
