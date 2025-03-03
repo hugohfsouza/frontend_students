@@ -1,0 +1,82 @@
+/* CORPO E RAIZ DA PÁGINA (plano de fundo e fonte) */
+:root {
+  font-family: "Inter", sans-serif;
+  font-size: larger;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: larger;
+  background: url("assets/background/5570027.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* NAVBAR */
+.navbar-brand {
+  display: flex;
+  align-items: center; /* Alinha a imagem e o texto verticalmente no centro */
+}
+
+.navbar-brand img {
+  width: 60px;
+  height: 60px;
+  margin-right: 24px; 
+}
+
+/* CONTEÚDOS SEARCH */
+.d-flex {
+  justify-content: space-between;
+}
+/* AJUSTANDO CONTAINER E TABELA NA PÁGINA */
+
+.container-table__mt-4 {
+  transform: scale(0.8); /* Reduz o tamanho em 20% */
+  margin: 0 auto; 
+  padding-bottom: 200px;
+}
+
+/* CADA BOX (imagem,título e botão) */
+.row {
+  display: flex;
+  justify-content: center; 
+  text-align: center; 
+}
+
+/* AJUSTANDO POSIÇÃO TABELA */
+.table {
+  margin-top: 80px;
+}
+
+/* AJUSTE TEXTO-IMAGEM */
+.profile-container {
+  display: flex;            
+  align-items: center;     
+  margin-top: 30px;         
+}
+
+/* FOTO DE PERFIL */
+.img {
+  height: 150px;            
+  width: 150px;             
+  border-radius: 50%;       
+  margin-left: 30px;
+}
+
+/* TEXTO */
+.profile-text {
+  margin-left: 20px;
+  display: flex;    
+}
+
+/* TÍTULO DOS TEXTOS (NAME,AGE,E-MAIL,COUNTRY) */
+.profile-text h4 {
+  margin: 5px 0;          
+  font-size: 24px; 
+  padding-left: 50px ;         
+}
+
+/* PARÁGRAFOS (DADOS) */
+.profile-text p {
+  margin: 0;              
+  font-size: 16px;         
+}
